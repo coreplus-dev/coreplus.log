@@ -1,3 +1,11 @@
-site_name: My Docs
+site_name: /var/coreplus/work.log
 theme:
   name: material
+  features:
+    - navigation.tabs
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
